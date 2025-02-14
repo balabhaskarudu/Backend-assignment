@@ -7,8 +7,13 @@ A Node.js backend REST API built with Express, Sequelize, and SQLite for managin
 1. **Clone the repository and navigate to the folder:**
 
 2. **Install dependencies:**
+3.`npm init -y
+    npm install express sequelize sqlite3 body-parser bcryptjs
+    npm install --save-dev nodemon
+   `
 
-3. **Run the project:**
+
+4. **Run the project:**
 - To run normally:
   ```
   node server.js
